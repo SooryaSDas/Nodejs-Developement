@@ -1,2 +1,18 @@
-<h2>hai i am {{title}}</h2>
-<p>This is a {{project}}</p>
+{{#if person.ad.admin}}
+
+<h1>yes admin</h1>
+
+{{else}}
+
+<h2>don't have admin</h2>
+
+{{/if}}
+
+
+
+{{!-- {{person.comments.comment}} --}}
+
+{{!-- {{#each values}}
+    <h2> {{@index}}. {{this}}  </h2>
+
+{{/each}} --}}
